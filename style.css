@@ -1,0 +1,182 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1611416457332-946853cc75d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1571&q=80);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+
+
+nav {
+
+    padding: 2em 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+nav h1 {
+    
+    font-size: 2rem;
+}
+
+
+nav ul {
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 25%;
+    font-size: 2rem;
+}
+
+
+nav ul li a:hover{
+    color: yellow;
+    border-bottom: 1px solid yellow;
+}
+
+nav input {
+    color: white;
+    background-color: #DC3640;
+    border: none;
+    border-radius: 0.2em;
+    font-size: 1.1rem;
+    padding: 0.3em 0.6em;
+    letter-spacing: 0.1em;
+}
+
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 37.5em;
+    margin: auto;
+}
+
+
+p {
+    color: white;
+    font-size: 1.75rem;
+}
+
+
+.save {
+    background-color: #1071FF;
+    color: white;
+    font-size: 0.9375rem;
+    text-transform: uppercase;
+    border: none;
+    padding: 0.375em 0.8125em;
+    border-radius: 0.1875em;
+    margin-top: 0.625em;
+}
+
+
+@media (max-width: 1500px){
+   nav ul{
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 1200px){
+    nav ul{
+         width: 40%;
+     }
+     
+     .center{
+        height: 30em;;
+     }
+ }
+
+
+ @media (max-width: 1000px){
+    nav ul{
+         width: 50%;
+     }
+     
+     .center{
+        height: 30em;;
+     }
+ }
+
+
+ @media (max-width: 800px){
+    nav ul{
+         width: 55%;
+     }
+     
+     .center{
+        height: 25em;;
+     }
+ }
+
+
+@media (max-width: 600px){
+    nav h1{
+        font-size: 1rem;
+    }
+
+    nav ul{
+        font-size: 1rem;
+        width: 45%;
+    }
+
+    nav input{
+        font-size: 0.7rem;
+    }
+
+    .center{
+        height: 5em;
+    }
+    
+    p{
+        font-size: 1rem;
+    }
+
+    .save{
+        font-size: 0.7rem;
+    }
+}
+
+
+
+
+
+ @media (max-width: 500px){
+    nav h1 {
+        font-size: 1rem;
+    }
+
+    nav ul{
+        font-size: 1rem;
+        width: 45%;
+    }
+
+    nav input{
+        font-size: 0.7rem;
+    }
+
+    .center{
+        height: 5em;
+    }
+    
+    p{
+        font-size: 1rem;
+    }
+
+    .save{
+        font-size: 0.7rem;
+    }
+
+ }
